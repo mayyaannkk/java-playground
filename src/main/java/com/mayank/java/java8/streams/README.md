@@ -14,6 +14,26 @@ Operation are classified into 2 types:
 > Collection to stream: `Stream s = collection.stream()`
 
 
+## toArray
+
+- To convert stream of objects into Array
+- `Integer[] i = list.stream.toArray(Integer[]::new);`
+- Returns an array containing elements of the stream
+- Terminal operation
+
+## Array to Stream
+
+- To convert arrays to Stream
+- `Arrays.stream(arr)`: Specifically for arrays
+- `Stream.of(arr)`: Argument can be of any type array or any group of collection
+- Ex: `Stream<?> list = Stream.of(1, 2, 3, "a", "b");`
+
+### forEach
+
+- To perform an action for each element in the list
+- Terminal operation
+
+
 ### Filter
 Syntax: `Stream filteredStream = originalStream.filter(Predicate)`
 
@@ -41,3 +61,41 @@ Q: Add the 5 grace marks to all the failed students: `GraceMarks.java`
 
 Q: Get the total number of failed students: `FailedCount.java`
 
+### Sorted
+
+- To sort the elements of the stream 
+- Sorted according to natural order.
+
+Q: Sort the elements from stream: `Sorted.java`
+
+If we want to sort in reverse order? 
+- If we want to sort according to customized order, we should use `Comparator` interface.
+- Comparator is a functional interface, having only `compare(obj1, obj2)` method
+- `sorted(Comparator)` is used for reverse sorting order.
+
+Q: Sort the elements in descending order using comparator from stream: `RevSorted.java`
+
+**Comparable**
+
+Method: `compareTo(obj1)`
+
+Natural order: `list.stream().sorted((a,b) -> a.compareTo(b)).toList();`
+
+Reverse order: `list.stream().sorted(a,b) -> -a.compareTo(b)).toList();`
+
+Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
+
+### min() & max()
+
+- Both method takes Comparator as an argument, and based on the Comparator result it will return the value
+- `min(Comparator)`: returns 1st element from Comparator result
+- `max(Comparator)`: returns last element form Comparator result
+- `LenSorted.java`
+
+
+---
+## Interview Questions
+1. Find employee with maximum salary: `EmpMaxSal.java`
+2. Find employee with second-highest salary: `SecondHighSal.java`
+3. Find employee who is most senior based on joining data
+4. Count employee based on gender: `GenderCount.java`
