@@ -99,3 +99,19 @@ Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
 2. Find employee with second-highest salary: `SecondHighSal.java`
 3. Find employee who is most senior based on joining data
 4. Count employee based on gender: `GenderCount.java`
+5. Remove duplicate from a list and preserve order: `RemoveDuplicate.java`
+6. Find all numbers starting with 1 using streams: `StartingWithOne.java`
+7. Join two streams: `JoinStreams.java`
+8. Merge two sorted lists into a single sorted list: `JoinSortedList.java`
+9. Check if a list of integers contains a prime number: `CheckPrime.java`
+10. How to debug streams using `peek()`: `PeekDebug.java`
+11. Given a list of Strings, find out those strings which start with a number: `StartWithNum.java`
+12. Check given String is palindrome or not using streams: `Palindrome.java`
+13. How do you sort the given list of decimals in reverse order: `SortDecimal.java`
+14. Find the nth smallest element in an array using streams: `NSmallest.java`
+15. How do you get last element of an array: `LastElement.java`
+16. Given a list of strings, join the strings with `[` as prefix, `]` as suffix, and `,` as delimiter: `JoinString.java`
+17. Find the sum of first two numbers in the list: `SumFirstTwo.java`
+18. Find the multiplication of first two numbers in the list: `MulFirstTwo.java`
+19. Find the sum of the unique numbers in a given list: `SumUnique.java`
+20. Find the words with k number of vowels in a given sentence: `FindVowels.java`
