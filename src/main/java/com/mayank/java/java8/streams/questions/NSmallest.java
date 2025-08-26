@@ -11,10 +11,7 @@ public class NSmallest {
 
         System.out.println(list);
         list.stream()
-                .filter(num -> num > 0)
                 .sorted()
-//                .peek(System.out::println)
-                .distinct()
                 .skip(nth - 1)
                 .findFirst().ifPresent(System.out::println);
     }

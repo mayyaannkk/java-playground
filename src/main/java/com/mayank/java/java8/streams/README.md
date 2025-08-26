@@ -96,7 +96,7 @@ Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
 ---
 ## Interview Questions
 1. Find employee with maximum salary: [EmpMaxSal.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/EmpMaxSal.java)
-2. Find employee with second-highest salary: [SecondHighSal.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/SecondhighSal.java)
+2. Find employee with second-highest salary: [SecondHighSal.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/SecondHighSal.java)
 3. Find employee who is most senior based on joining data
 4. Count employee based on gender: [GenderCount.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/GenderCount.java)
 5. Remove duplicate from a list and preserve order: [RemoveDuplicate.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/RemoveDuplicate.java)

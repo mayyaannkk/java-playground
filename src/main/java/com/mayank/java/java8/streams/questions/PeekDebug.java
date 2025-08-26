@@ -4,7 +4,7 @@ import com.mayank.java.util.utilities.GetData;
 
 import java.util.List;
 
-public class PeekDubug {
+public class PeekDebug {
     public static void main(String[] args) {
         List<Integer> list = GetData.getList();
         System.out.println("List: " + list);
