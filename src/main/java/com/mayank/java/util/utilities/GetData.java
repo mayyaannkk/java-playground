@@ -1,9 +1,11 @@
 package com.mayank.java.util.utilities;
 
+import com.mayank.java.util.entities.Transaction;
+
 import java.util.Arrays;
 import java.util.List;
 
-public interface GetElementsAs {
+public interface GetData {
     static List<Integer> getList() {
         return Arrays.asList(5,                                // Single element scenario
                 3, 3, 3,                           // Duplicates
@@ -17,5 +19,14 @@ public interface GetElementsAs {
                 2, 4, 6, 8, 10,                    // Even numbers
                 1, 3, 5, 7, 9,                     // Odd numbers
                 8, 1, 10, -3, 4);
+    }
+    static List<Transaction> getTransactions() {
+        return Arrays.asList(
+                new Transaction("2025-04-20", 100.50),
+                new Transaction("2025-04-20", 200.75),
+                new Transaction("2025-04-21", 150.00),
+                new Transaction("2025-04-21", 50.25),
+                new Transaction("2025-04-22", 300.00)
+        );
     }
 }

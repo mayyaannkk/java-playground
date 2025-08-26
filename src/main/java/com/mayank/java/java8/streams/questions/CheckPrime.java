@@ -1,13 +1,13 @@
 package com.mayank.java.java8.streams.questions;
 
-import com.mayank.java.util.utilities.GetElementsAs;
+import com.mayank.java.util.utilities.GetData;
 
 import java.util.List;
 import java.util.stream.IntStream;
 
 public class CheckPrime {
     public static void main(String[] args) {
-        List<Integer> list = GetElementsAs.getList();
+        List<Integer> list = GetData.getList();
 
         boolean anyPrime = list.stream()
                 .anyMatch(CheckPrime::isPrime);

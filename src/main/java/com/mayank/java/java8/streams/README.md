@@ -115,3 +115,9 @@ Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
 18. Find the multiplication of first two numbers in the list: `MulFirstTwo.java`
 19. Find the sum of the unique numbers in a given list: `SumUnique.java`
 20. Find the words with k number of vowels in a given sentence: `FindVowels.java`
+21. Given a string, find the first non-repeating character in it using streams: `FirstNonRepeating.java`
+22. Given a string, find the first repeating character using stream: `FirstRepeating.java`
+23. Given a string, find the nth non-repeating character: `Just use skip in above code`
+24. Given a list of integers find: min, max, sum, average, count of numbers: `Operations.java`
+25. Find the word with third-highest length: `ThirdHighestLen.java`
+26. Given a list of transactions, find the sum of transaction amounts for each day using java stream: `SumTransactions.java`
