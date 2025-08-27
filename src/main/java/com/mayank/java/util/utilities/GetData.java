@@ -1,12 +1,13 @@
 package com.mayank.java.util.utilities;
 
+import com.mayank.java.util.entities.Student;
 import com.mayank.java.util.entities.Transaction;
 
 import java.util.Arrays;
 import java.util.List;
 
 public interface GetData {
-    static List<Integer> getList() {
+    static List<Integer> getIntegerList() {
         return Arrays.asList(5,                                // Single element scenario
                 3, 3, 3,                           // Duplicates
                 -5, -1, -10,                       // Negative numbers
@@ -20,6 +21,11 @@ public interface GetData {
                 1, 3, 5, 7, 9,                     // Odd numbers
                 8, 1, 10, -3, 4);
     }
+
+    static List<String> getStringList() {
+        return Arrays.asList("apple", "banana", "apple", "kiwi", "cherry", "mango");
+    }
+
     static List<Transaction> getTransactions() {
         return Arrays.asList(
                 new Transaction("2025-04-20", 100.50),
@@ -27,6 +33,16 @@ public interface GetData {
                 new Transaction("2025-04-21", 150.00),
                 new Transaction("2025-04-21", 50.25),
                 new Transaction("2025-04-22", 300.00)
+        );
+    }
+
+    static List<Student> getStudents() {
+        return Arrays.asList(
+                new Student("Mayank", 25),
+                new Student("Piyush", 24),
+                new Student("Nitesh", 25),
+                new Student("Shivani", 26),
+                new Student("Parmanand", 23)
         );
     }
 }

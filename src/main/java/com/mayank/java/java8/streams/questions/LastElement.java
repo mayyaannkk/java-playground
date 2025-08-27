@@ -6,7 +6,7 @@ import java.util.List;
 
 public class LastElement {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         System.out.println(list);
         list.stream()

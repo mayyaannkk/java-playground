@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MultiplyEach {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         List<Integer> mul = list.stream()
                 .map(element -> element * 2)

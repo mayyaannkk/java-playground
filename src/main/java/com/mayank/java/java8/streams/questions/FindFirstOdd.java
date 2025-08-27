@@ -4,12 +4,14 @@ import com.mayank.java.util.utilities.GetData;
 
 import java.util.List;
 
-public class PassedStudents {
+public class FindFirstOdd {
     public static void main(String[] args) {
         List<Integer> list = GetData.getIntegerList();
+        System.out.println(list);
 
-        List<Integer> passed = list.stream().filter(marks -> marks > 5).toList();
-        System.out.println("Marks: " + list);
-        System.out.println("Passed students: " + passed);
+        list.stream()
+                .filter(ele -> ele % 2 != 0)
+                .findFirst()
+                .ifPresent(System.out::println);
     }
 }

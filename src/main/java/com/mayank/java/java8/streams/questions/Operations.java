@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Operations {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         IntSummaryStatistics intSummaryStatistics = list.stream()
                 .mapToInt(n -> n)

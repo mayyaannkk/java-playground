@@ -6,7 +6,7 @@ import java.util.List;
 
 public class GraceMarks {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         List<Integer> graceMarks = list.stream()
                 .filter(marks -> marks < 5)

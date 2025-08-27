@@ -7,7 +7,7 @@ import java.util.List;
 
 public class RevSorted {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         List<Integer> revSorted = list.stream()
                 .sorted(Comparator.reverseOrder())

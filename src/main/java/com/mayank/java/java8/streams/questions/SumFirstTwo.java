@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class SumFirstTwo {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
         System.out.println(list);
 
         int sum = list.stream()

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class NSmallest {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
         int nth = 3;
 
         System.out.println(list);

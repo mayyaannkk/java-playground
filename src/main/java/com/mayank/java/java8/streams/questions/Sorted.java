@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Sorted {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         List<Integer> sorted = list.stream().sorted().toList();
 

@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 public class CheckPrime {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         boolean anyPrime = list.stream()
                 .anyMatch(CheckPrime::isPrime);

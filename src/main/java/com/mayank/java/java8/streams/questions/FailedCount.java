@@ -6,7 +6,7 @@ import java.util.List;
 
 public class FailedCount {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
 
         long failedCount = list.stream()
                 .filter(marks -> marks < 4)

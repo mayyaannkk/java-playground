@@ -4,12 +4,13 @@ import com.mayank.java.util.utilities.GetData;
 
 import java.util.List;
 
-public class PassedStudents {
+public class ContainsDuplicate {
     public static void main(String[] args) {
         List<Integer> list = GetData.getIntegerList();
 
-        List<Integer> passed = list.stream().filter(marks -> marks > 5).toList();
-        System.out.println("Marks: " + list);
-        System.out.println("Passed students: " + passed);
+        long count = list.stream()
+                .distinct()
+                .count();
+        System.out.println("Contains duplicate? " + (count != list.size()));
     }
 }

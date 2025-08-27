@@ -95,6 +95,8 @@ Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
 
 ---
 ## Interview Questions
+[ Top 50+ Tricky Java Streams Coding Interview Questions You Must Know to Crack Your Next Interview! ](https://www.youtube.com/watch?v=tT3gUj6cq2U)
+
 1. Find employee with maximum salary: [EmpMaxSal.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/EmpMaxSal.java)
 2. Find employee with second-highest salary: [SecondHighSal.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/SecondHighSal.java)
 3. Find employee who is most senior based on joining data
@@ -121,3 +123,13 @@ Q: Sort the elements based on the length of the ArrayList: `LenSorted.java`
 24. Given a list of integers find: min, max, sum, average, count of numbers: [Operations.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/Operations.java)
 25. Find the word with third-highest length: [ThirdHighestLen.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/ThirdHighestLen.java)
 26. Given a list of transactions, find the sum of transaction amounts for each day using java stream: [SumTransactions.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/SumTransactions.java)
+27. Given an integer array, return true if it contains duplicate element, return false otherwise: [ContainsDuplicate.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/ContainsDuplicate.java)
+28. Write a program to print the count of each character in a string: [CountChar.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/CountChar.java)
+29. Given the list of integers, find the first odd number of the list using Stream functions: [FindFirstOdd.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/FindFirstOdd.java)
+30. Find the intersection of two lists: [ListIntersection.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/ListIntersection.java)
+31. How to group by employee age: [GroupEmpAge.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/GroupEmpAge.java)
+32. How to partition list of numbers into even and odd groups: [PartitionList.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/PartitionList.java)
+33. Calculate the average age of a list of Student objects: [AverageAge.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/AverageAge.java)
+34. Sort using multiple fields using streams: [SortMultiple.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/SortMultiple.java)
+35. How to count each element/word from the ArrayList: [CountElement.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/CountElement.java)
+36. Find the longest string in a list of strings: How to count each element/word from the ArrayList: [LongestString.java](https://github.com/mayyaannkk/java-playground/blob/main/src/main/java/com/mayank/java/java8/streams/questions/LongestString.java)

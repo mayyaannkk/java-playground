@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PeekDebug {
     public static void main(String[] args) {
-        List<Integer> list = GetData.getList();
+        List<Integer> list = GetData.getIntegerList();
         System.out.println("List: " + list);
 
         List<Integer> graceMarks = list.stream()
